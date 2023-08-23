@@ -13,6 +13,7 @@
 		0060127F2A57D14E008900E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0060127D2A57D14E008900E0 /* Main.storyboard */; };
 		006012812A57D151008900E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006012802A57D151008900E0 /* Assets.xcassets */; };
 		006012842A57D151008900E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006012822A57D151008900E0 /* LaunchScreen.storyboard */; };
+		0060128C2A5C52A1008900E0 /* LogoDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060128B2A5C52A1008900E0 /* LogoDetectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		006012802A57D151008900E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006012832A57D151008900E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006012852A57D151008900E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0060128B2A5C52A1008900E0 /* LogoDetectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoDetectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				006012772A57D14E008900E0 /* AppDelegate.swift */,
 				006012792A57D14E008900E0 /* SceneDelegate.swift */,
 				0060127B2A57D14E008900E0 /* ViewController.swift */,
+				0060128B2A5C52A1008900E0 /* LogoDetectViewController.swift */,
 				0060127D2A57D14E008900E0 /* Main.storyboard */,
 				006012802A57D151008900E0 /* Assets.xcassets */,
 				006012822A57D151008900E0 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				0060127C2A57D14E008900E0 /* ViewController.swift in Sources */,
 				006012782A57D14E008900E0 /* AppDelegate.swift in Sources */,
+				0060128C2A5C52A1008900E0 /* LogoDetectViewController.swift in Sources */,
 				0060127A2A57D14E008900E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = img2Text/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ril.img2Text;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mp.img2Text;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,6 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = img2Text/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ril.img2Text;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mp.img2Text;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
